@@ -214,7 +214,7 @@ EOF
 
     unset_explicit_env_vars
     _log "Running as ${NB_USER}:" "${cmd[@]}"
-    exec sudo --preserve-env --set-home --user "${NB_USER}" \
+    exec setsid sudo --preserve-env --set-home --user "${NB_USER}" \
         PATH="${PATH}" \
         PYTHONPATH="${PYTHONPATH:-}" \
         "${cmd[@]}"
