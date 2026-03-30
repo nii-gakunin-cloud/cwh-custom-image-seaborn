@@ -1,10 +1,7 @@
 jupyter_core==5.6.1
-jupyterhub==3.*
-jupyterlab==3.*
-lc_multi_outputs @ https://github.com/NII-cloud-operation/Jupyter-multi_outputs/releases/download/2.2.0.rc3/lc_multi_outputs-2.2.0.rc3.tar.gz#sha256=c8574cc9f21f469fa163d44987884732b99b047673782dcf804386e553c574cf
-lc_wrapper @ git+https://github.com/NII-cloud-operation/Jupyter-LC_wrapper.git@cde2b920e86c19656af61e907a77f2a11ae947d2
+lc_multi_outputs @ https://github.com/NII-cloud-operation/Jupyter-multi_outputs/releases/download/2.2.0.rc4/lc_multi_outputs-2.2.0.rc4.tar.gz#sha256=c8c654f07df9e5f9c790e74b49e6fddc05c97a100e004e8a0ca19307dc9471a0
+lc_wrapper @ https://github.com/NII-cloud-operation/Jupyter-LC_wrapper/releases/download/1.3.2.rc1/lc_wrapper-1.3.2.rc1.tar.gz#sha256=76d420fa83aa61320a42626db0d3c6572ec3573874fbe5584a7dea7db815be17
 nbclassic==1.*
-nblineage @ https://github.com/NII-cloud-operation/Jupyter-LC_nblineage/releases/download/0.2.0.rc1/nblineage-0.2.0.rc1.tar.gz#sha256=83c72f47fba076f382578d39a5d2622054546ad8f8ad80a91a37aabd5dbf6f55
-notebook==6.*
-scipy==1.16.*
+nblineage @ https://github.com/NII-cloud-operation/Jupyter-LC_nblineage/releases/download/0.2.0.rc4/nblineage-0.2.0.rc4.tar.gz#sha256=7cd1cd85eb7a9b950ea935c7cf3ab3c7b0fae87a0c4bfa699eafaff6387f6ad6
+scipy==1.17.*
 seaborn==0.13.*
